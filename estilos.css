@@ -1,0 +1,58 @@
+body{
+    background-color: #e6e6e6;
+}
+
+.cont{
+    position: absolute;
+    transform: translateX(-50%) translateY(50%);
+    left: 50%;
+}
+
+.cont-qr{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(100%);
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 120%;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(80%);
+}
+
+.btn:hover{
+    background-color: #94427e;
+    color: white;
+    border: none;
+    width: 120%;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(80%);
+}
+
+.URL{
+    background-color: white;
+    border: none;
+    width: 118%;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(30%);
+}
+
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

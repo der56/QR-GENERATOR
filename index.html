@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-GENERATOR</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+    integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="qrdef.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <center><h1 class="title" id="title">QR-GENERATOR</h1></center>
+
+    <div class="cont">
+        <form action="" id="formulario" class="formulario">
+            <input type="text" id="link" placeholder="URL" class="URL">
+            <button class="btn">Generar QR</button>
+        </form>
+        <div class="cont-qr" id="cont-qr"></div>
+    </div>
+
+</body>
+</html>
